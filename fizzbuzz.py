@@ -1,4 +1,4 @@
-#3의 배수일때 :fizz
+#3의 배수일때 :fizz(done)
 #5의 배수일때 :buzz
 #15의 배수일때:fizzbuzz
 #나머지는 숫자로 출력 (done)
@@ -7,5 +7,8 @@ for i in range(1,46):
     
     if i%3 == 0:
         print('fizz')
-    else: 
+    elif i%5 == 0:
+        print('buzz')
+    else:
         print(i)
+
